@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    
+  </style>
+  <title>로그인</title>
+</head>
+<body>
+  <div id="container">
+    <h1>회원가입을 환영합니다</h1>
+  </div>
+  <form action="">
+    <fieldset>
+      <legend>사용자 정보</legend>
+      <ul>
+        <li>
+          <label for="uid">ID</label>
+          <input type="text" id="uid" autofocus placeholder="아이디를 입력하세요" required>
+        </li>
+        <li>
+          <label for="umail">Email</label>
+          <input type="email" id="umail" placeholder="이메일을 입력하세요">
+        </li>
+        <li>
+          <label for="upwd">PWD</label>
+          <input type="password" id="upwd" placeholder="최소 6글자" required>
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <legend>자기소개 <sub>(선택사항)</sub></legend>
+          <label for="umemo" style="float: left;padding: 10px;">메모</label>
+          <textarea id="umemo" cols="40" rows="10"></textarea>
+    </fieldset>
+    <fieldset>
+      <legend>이벤트와 새로운 소식</legend>
+      <ul>
+        <li>
+          <input type="radio" name="mailing" id="mailing_y" checked>
+          <label for="mailing_y">메일 수신</label>
+          <input type="radio" name="mailing" id="mailing_n" >
+          <label for="mailing_n">메일 거부</label>
+        </li>
+        <li>
+          <label for="prod1">상품선택 </label>
+          <select id="prod1">
+            <option value="special_3" selected>선물용 3kg</option>
+            <option value="special_5">선물용 5kg</option>
+            <option value="family_3">가정용 3kg</option>
+          </select>
+        </li>
+      </ul>
+    </fieldset>
+    <div id="buttons">
+      <input type="submit" value="가입하기">
+      <input type="reset" value="취소">
+    </div>
+  </form>
+
+</body>
+</html>
