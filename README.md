@@ -1,6 +1,14 @@
 ﻿# publishing_31_example
 31개의 웹페이지 
 
+# 07.dgk flower
+
+꽃집
+- 1단레이아웃
+<img src="https://user-images.githubusercontent.com/20849970/174915513-e206c2b5-3c12-40b5-960b-1326e773ee0e.png" width="500"/>
+-
+
+
 # 06.wbc_backery
 
 빵집 안내
