@@ -3,7 +3,6 @@
 
 # 03.recruit
 교내 방송국 모집공고 
-<img src="https://user-images.githubusercontent.com/20849970/174907333-554f7ca0-1cbe-4bf9-894e-77c570f58e78.png" width="600"/>
 -
 
 # 02.jeju_products
