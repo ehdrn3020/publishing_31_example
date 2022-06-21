@@ -1,4 +1,5 @@
 ﻿# publishing_31_example
  
 
-![20220622070133](https://user-images.githubusercontent.com/20849970/174904417-871a3479-2c85-4e3f-8418-dea76652cec2.png)
+
+![20220622065759](https://user-images.githubusercontent.com/20849970/174904460-494116b4-9231-4a21-bb41-1f0c3fa156f1.png)
