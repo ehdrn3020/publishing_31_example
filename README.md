@@ -9,4 +9,4 @@
 
 
 # 01.jeju_trip: 제주여행 안내
-<img src="https://user-images.githubusercontent.com/20849970/174904460-494116b4-9231-4a21-bb41-1f0c3fa156f1.png" width="600"/>
+<img src="https://user-images.githubusercontent.com/20849970/174904460-494116b4-9231-4a21-bb41-1f0c3fa156f1.png" width="600" style="border:1px solid #eee"/>
