@@ -1,11 +1,20 @@
 ﻿# publishing_31_example
 31개의 웹페이지 
 
+# 06.wbc_backery
+
+빵집 안내
+- 1단레이아웃
+
+<img src="https://user-images.githubusercontent.com/20849970/174909590-af00d80e-6db0-4410-bf85-f8c075723665.png" width="500"/>
+-
+
+
 # 05.steller
 
 1단레이아웃 사이트
 
-<img src="https://user-images.githubusercontent.com/20849970/174909351-170189b6-259f-42b0-8fa2-0784c830225e.png" width="220"/>
+<img src="https://user-images.githubusercontent.com/20849970/174909351-170189b6-259f-42b0-8fa2-0784c830225e.png" width="600"/>
 -
 
 # 04.reserve_hotel
