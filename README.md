@@ -3,6 +3,8 @@
 
 # 03.recruit
 교내 방송국 모집공고 
+
+<img src="https://user-images.githubusercontent.com/20849970/20849970/174907798-b49ce437-6cd7-40fe-9223-ce08d532bdf8.png" width="600"/>
 -
 
 # 02.jeju_products
@@ -18,5 +20,5 @@
 
 제주여행 안내
 
-<img src="https://user-images.githubusercontent.com/20849970/174904460-494116b4-9231-4a21-bb41-1f0c3fa156f1.png" width="600" style="border:5px solid rgb(101, 101, 101);"/>
+<img src="https://user-images.githubusercontent.com/20849970/174904460-494116b4-9231-4a21-bb41-1f0c3fa156f1.png" width="600"/>
 -
