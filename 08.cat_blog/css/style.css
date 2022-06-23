@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+body {
+    color: #949087;
+    font-family: sans-serif;
+    background: #faf6ed url('../images/bg.png');
+}
+
+/* COMMON */
+
+p {
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+/* HEADER */
+header {
+    max-width: 1000px;
+    margin: 2.5rem auto 0;
+    background: url('../images/header.svg') no-repeat center top/cover;
+    height: 170px;
+}
