@@ -148,3 +148,83 @@ main {
 article p {
     margin-bottom: 1rem;
 }
+
+aside {
+    margin-top: 1rem;
+}
+.side-box {
+    margin-bottom: 4rem;
+    border: 1px solid #ccc;
+    outline: 2px solid #ccc;
+    outline-offset: 4px;
+    border-radius: 6px;
+    padding: 0.875rem;
+    position: relative;
+}
+.side-box::before {
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: -1rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /* Font Awesome */
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 900;
+    color: #949087;
+    font-size: 1.5rem;
+    content: '\f1b0';
+}
+
+.side-box h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.875rem;
+    letter-spacing: .1rem;
+    text-align: center;
+    margin: 0.875rem 0 1.125rem;
+}
+.side-box li {
+    border-bottom: 1px dashed #ccc;
+    padding: 1rem 0.25rem;
+}
+.side-box a:hover {
+    color: #7ac69f;
+}
+.side-box li::before {
+    display: inline-block;
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #93d8d0;
+    margin: 6px 10px 0 0;
+    border-radius: 50%;
+}
+
+.newsletter-form {
+    /* display: flex; */
+    margin-top: 1.5rem;
+}
+.newsletter-form input[type='email'] {
+    border: 2px solid #ccc;
+    border-radius: 10px 0 0 10px;
+    background: #fff;
+    width: 75%;
+    padding: 1rem;
+}
+.newsletter-form input[type='email']::placeholder {
+    color: #ccc;
+}
+.newsletter-form input[type='submit'] {
+    background: #eda1a1;
+    border: 1px solid #ec8787;
+    padding: 1.1rem;
+    border-radius: 0 10px 10px 0;
+    color: #fff;
+    margin-left: -5px;
+}
+.newsletter-form input[type='submit']:hover {
+    background: #e38787;
+}
