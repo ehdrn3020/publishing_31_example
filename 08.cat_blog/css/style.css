@@ -204,7 +204,7 @@ aside {
 }
 
 .newsletter-form {
-    /* display: flex; */
+    display: flex;
     margin-top: 1.5rem;
 }
 .newsletter-form input[type='email'] {
@@ -227,4 +227,67 @@ aside {
 }
 .newsletter-form input[type='submit']:hover {
     background: #e38787;
+}
+footer {
+    background: #949087;
+    text-align: center;
+    padding: 3rem;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+footer li {
+    margin: 0 12px;
+}
+footer a {
+    color: #fff;
+}
+footer a:hover {
+    color: #c7c3ba;
+}
+footer small {
+    color: #c7c3ba;
+    font-size: .875rem;
+}
+
+/* =============Desk Top============ */
+@media (min-width: 600px){
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4rem;
+        padding: 1rem 2.5rem 2.5rem;
+    }
+    header {
+        height: 190px;
+    }
+    .page-title {
+        margin: 1rem 0 2rem;
+    }
+    .page-desc {
+        font-size: 1.125rem;
+        margin-bottom: 4rem;
+    }
+    /* Main */
+    main {
+        width: 68%;
+        margin-bottom: 0;
+    }
+    .post-thumb {
+        margin: 0 1rem 1rem 0;
+        shape-outside: circle();
+        float: left;
+    }
+    .post-img {
+        width: 220px;
+        height: 180px;
+    }
+
+    /* Aside */
+    aside {
+        width: 26%;
+    }
+
 }
