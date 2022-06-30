@@ -1,6 +1,15 @@
 ﻿# publishing_31_example
 31개의 웹페이지 
 
+# 08.cat blog
+
+고양이 블로그
+- 2단레이아웃
+-[FireShot Capture 004 - Cat Blog - 127.0.0.1.pdf](https://github.com/ehdrn3020/publishing_31_example/files/9023777/FireShot.Capture.004.-.Cat.Blog.-.127.0.0.1.pdf)
+
+
+
+
 # 07.dgk flower
 
 꽃집
