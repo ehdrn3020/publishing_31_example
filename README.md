@@ -5,7 +5,9 @@
 
 고양이 블로그
 - 2단레이아웃
--[FireShot Capture 004 - Cat Blog - 127.0.0.1.pdf](https://github.com/ehdrn3020/publishing_31_example/files/9023777/FireShot.Capture.004.-.Cat.Blog.-.127.0.0.1.pdf)
+- 반응형
+<img src="https://user-images.githubusercontent.com/20849970/176790032-95af4bc7-17d9-4bfb-a349-f32693cbeda8.png" width="500"/>
+-
 
 
 
