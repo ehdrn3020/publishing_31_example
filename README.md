@@ -8,7 +8,7 @@
 - 블로그 레이아웃
 - 반응형
 <div>
-  <img src="https://user-images.githubusercontent.com/20849970/177020825-77b7b90c-d70e-4a04-8f41-82267dd7fe99.png" width="350"/>
+  <img src="https://user-images.githubusercontent.com/20849970/177020825-77b7b90c-d70e-4a04-8f41-82267dd7fe99.png" width="450"/>
   <img src="https://user-images.githubusercontent.com/20849970/177020951-e3b27d52-49f6-4c46-9200-bcf36de24e4f.png" width="200"/>
 </div>
 -
