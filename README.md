@@ -8,8 +8,8 @@
 - 블로그 레이아웃
 - 반응형
 <div>
-  <img src="https://user-images.githubusercontent.com/20849970/177020825-77b7b90c-d70e-4a04-8f41-82267dd7fe99.png" width="350"/>
-  <img src="https://user-images.githubusercontent.com/20849970/177020836-d9e86bae-19d3-4632-a778-e593e585a48c.png" width="200"/>
+  <img src="https://user-images.githubusercontent.com/20849970/177020825-77b7b90c-d70e-4a04-8f41-82267dd7fe99.png" width="350" heigth="500"/>
+  <img src="https://user-images.githubusercontent.com/20849970/177020836-d9e86bae-19d3-4632-a778-e593e585a48c.png" width="200" heigth="500"/>
 </div>
 -
 
