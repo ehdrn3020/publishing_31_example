@@ -1,0 +1,84 @@
+@charset 'UTF-8';
+
+/*
+GENERAL STYLING
+================================================ */
+html {
+    font-size: 100%;
+}
+body {
+	color: #555;
+	font-family: sans-serif;
+}
+/*
+COMMON
+================================================ */
+p,
+td {
+    line-height: 1.7;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/*
+HEADER
+================================================ */
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.logo {
+    width: 7.5rem;
+}
+.main-nav {
+    display: flex;
+}
+.main-nav li {
+    text-align: center;
+    font-size: .75rem;
+}
+.main-nav a {
+    display: block;
+    padding: .5rem;
+    width: 4rem;
+}
+.main-nav a::before {
+    display: block;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 900;
+    color: #555;
+    font-size: 1.25rem;
+    margin-bottom: .25rem;
+}
+.menu-home::before {
+    content: '\f015';
+}
+.menu-job::before {
+    content: '\f0ca';
+}
+.menu-form::before {
+    content: '\f56e';
+}
+.current {
+    background-color: #fbf0d9;
+}
+/*
+HOME SECTION1
+================================================ */
+.home-hero {
+    background: url(../images/bg-hero.jpg) no-repeat right top / 70vw auto;
+    padding: 5.5rem 1rem 3rem;
+}
+.home-hero h2 {
+    display: inline-block;
+    background: rgba(255,255,255,.8);
+    margin: 8vw 0 12vw;
+    padding: 1rem;
+}
