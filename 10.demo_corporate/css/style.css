@@ -24,7 +24,21 @@ td {
     margin: 0 auto;
     padding: 0 1rem;
 }
-
+.btn {
+    display: inline-block;
+    padding: 1.25rem 3rem;
+    text-align: center;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 1.375rem;
+    width: 100%;
+}
+.btn-primary {
+    color: #fff;
+    background: #2d3374;
+}
+.btn-primary:hover {
+    background: #3a7edf;
+}
 /*
 HEADER
 ================================================ */
@@ -70,15 +84,71 @@ header .wrapper {
     background-color: #fbf0d9;
 }
 /*
-HOME SECTION1
-================================================ */
+HOME SECTION1 ================================================ 
+*/
 .home-hero {
     background: url(../images/bg-hero.jpg) no-repeat right top / 70vw auto;
     padding: 5.5rem 1rem 3rem;
 }
 .home-hero h2 {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 1.5rem;
     display: inline-block;
     background: rgba(255,255,255,.8);
     margin: 8vw 0 12vw;
     padding: 1rem;
+}
+.home-hero p {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+}
+/*
+HOME SECTION2 ================================================ 
+*/
+.brown-bg {
+    background: #f8f6f2;
+}
+.content {
+    padding: 4rem 1rem;
+}
+.title {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.title:after {
+    display: block;
+    content: '';
+    width: 10rem;
+    height: 5px;
+    background: #d0bea2;
+    margin: 2rem 0 2.5rem;
+}
+.home-text {
+    margin-bottom: 2rem;
+}
+/* 그래프 글씨 */
+.ct-label {
+    font-size: 1rem;
+    fill: #fff;
+}
+/* 원 그래프 */
+.ct-series-a .ct-slice-pie {
+    fill: #2d3374;
+}
+.ct-series-b .ct-slice-pie {
+    fill: #3a7edf;
+}
+.ct-series-c .ct-slice-pie {
+    fill: #9bcbf8;
+}
+.ct-series-d .ct-slice-pie {
+    fill: #bbb;
+}
+/* 막대 그래프 */
+.ct-series-a .ct-bar {
+    stroke: #3a7edf;
+}
+.ct-bar {
+    stroke-width: 16%;
 }
