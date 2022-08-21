@@ -39,6 +39,10 @@ td {
 .btn-primary:hover {
     background: #3a7edf;
 }
+.btn-secondary {
+    background-color: #d0bea2;
+    color: #555
+}
 /*
 HEADER
 ================================================ */
@@ -151,4 +155,22 @@ HOME SECTION2 ================================================
 }
 .ct-bar {
     stroke-width: 16%;
+}
+.home-chart p {
+    text-align: center;
+}
+/*
+HOME FOOTER ================================================ 
+*/
+footer {
+    background-color: #2D3374;
+    color: rgba(255,255,255,.8);
+    padding: 3.5rem 1rem;
+    text-align: center;
+}
+footer .btn {
+    margin-bottom: 3.5rem;
+}
+.footer-nav li {
+    margin: 1rem 0;
 }
