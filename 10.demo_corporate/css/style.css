@@ -191,6 +191,35 @@ main {
 .title-center::after {
     margin: 2.5rem auto;
 }
+.table {
+    margin: 3.5rem 0;
+    width: 100%;
+}
+.table th, td {
+    padding: 1.05rem;
+    display: block;
+}
+.table th {
+    background: #f8f6f2;
+}
+.text-center {
+    text-align: center;
+}
+.btn-bottom {
+    margin-bottom: 4rem;
+}
+.timeline {
+    list-style: decimal inside;
+    font-family: 'Noto Serif KR', serif;
+}
+.timeline-item {
+    margin-bottom: 2rem;
+}
+.timeline-item h3{
+    display: inline-block;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
 
 
 @media (min-width: 600px) {
@@ -249,5 +278,33 @@ main {
     }
     .home-chart {
         width: 35vw;
+    }
+    /*
+    JOB MAIN ================================================ 
+    */
+    .table th, td {
+        padding: 1.25rem;
+        display: table-cell;
+    }
+    .table th {
+        width: 24%;
+        vertical-align: middle;
+    }
+    .table tr:nth-child(odd) {
+        background: #f8f6f2;
+    }
+    .timeline-item {
+        display: flex;
+        margin-bottom: 0rem;
+    }
+    .timeline-item h3{
+        width: 24%;
+        padding: 2rem 2.5rem 2rem 0;
+        text-align: right;
+    }
+    .timeline-item p {
+        width: 76%;
+        padding: 1.5rem 0 1.5rem 2.5rem;
+        border-left: 5px solid #f8f6f2;
     }
 }
