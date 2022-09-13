@@ -220,7 +220,40 @@ main {
     font-size: 1.3rem;
     margin-bottom: 1rem;
 }
-
+/*
+FORM MAIN ================================================ 
+*/
+.page-form {
+    background-image: url(../images/bg-form.jpg);
+    background-size: 70vw auto, contain;
+    background-position: right 106px;
+    background-repeat: no-repeat;
+}
+.text-small {
+    font-size: .875rem;
+}
+input[type="text"], input[type='email'], input[type='url'], select, textarea {
+    border: 1px solid #bbb;
+    background: #fff;
+    padding: 0.5rem;
+    width: 100%;
+}
+.select-box {
+    position: relative;
+}
+.select-box::after {
+    display: inline-block;
+    position: absolute;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 900;
+    content: '\f078';
+    color: #bbb;
+    top: 0.625rem;
+    right: 1rem;
+}
+textarea {
+    height: 10rem;
+}
 
 @media (min-width: 600px) {
     header .wrapper {
