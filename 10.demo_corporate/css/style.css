@@ -177,6 +177,13 @@ footer .btn {
 /*
 JOB MAIN ================================================ 
 */
+.page-job {
+    background-image: url(../images/bg-job.jpg);
+    background-size: 70vw auto, contain;
+    background-position: left 106px;
+    background-repeat: no-repeat;
+}
+
 main {
     max-width: 900px;
     width: 94%;
