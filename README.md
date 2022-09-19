@@ -8,9 +8,9 @@
 - 홈 / 모집요강 / 지원폼 페이지
 - 반응형
 <div>
-  <img src="https://user-images.githubusercontent.com/20849970/191028232-fee522da-61df-4abd-8728-155b708c31ad.png" width="300"/>
-  <img src="https://user-images.githubusercontent.com/20849970/191028252-42b21da0-6a9a-4345-a75b-c5acde1841eb.png" width="300"/>
-  <img src="https://user-images.githubusercontent.com/20849970/191028263-2cc845ab-69e4-4def-8ac0-9bd3979ab7d7.png" width="300"/>
+  <img src="https://user-images.githubusercontent.com/20849970/191028232-fee522da-61df-4abd-8728-155b708c31ad.png" width="250"/>
+  <img src="https://user-images.githubusercontent.com/20849970/191028252-42b21da0-6a9a-4345-a75b-c5acde1841eb.png" width="250"/>
+  <img src="https://user-images.githubusercontent.com/20849970/191028263-2cc845ab-69e4-4def-8ac0-9bd3979ab7d7.png" width="250"/>
 </div>
 -
 
