@@ -1,0 +1,116 @@
+@charset 'UTF-8';
+
+/* Colors Var */
+:root {
+    --light-blue: #4db1ec;
+    --blue: #1665cc;
+    --purple: #b473bf;
+    --pink: #ffb2c1;
+    --orange: #ff9f67;
+    --yellow: #ffd673;
+    --light-green: #a2e29b;
+    --green: #00a2af;
+    --grey: #333;
+    --white: #fff;
+}
+
+/* General */
+html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: sans-serif;
+    color: var(--grey);
+}
+
+/* Common */
+h1, h2 {
+    text-align: center;
+}
+h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+image {
+    max-width: 100%;
+}
+p {
+    line-height: 1.7;
+}
+header, h1, h2, .hero-date {
+    font-family: impact, sans-serif;
+}
+.wrapper {
+    width: 100%;
+    padding: 0 1rem;
+}
+
+/* Header */
+header {
+    background: var(--grey);
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+header a {
+    color: var(--white);
+    font-size: 1.5rem;
+}
+.btn-menu {
+    color: var(--white);
+    border: 1px solid var(--white);
+    padding: .5rem 1rem;
+    /* position: absolute; */
+    /* top: 12px;
+    right: 12px; */
+}
+.main-nav {
+    /* background: var(--grey); */
+    /* width: 0; */
+    /* position: absolute; */
+    /* z-index: 2; */
+    /* top: 50px; */
+    /* right: 0; */
+    overflow: hidden;
+    /* transition: .5s; */
+}
+/*
+.main-nav li {
+    text-align: center;
+    margin: 2rem 0;
+}
+.main-nav a {
+    display: block;
+}
+.main-nav.open-menu {
+    width: 100%;
+} */
+
+/* HERO */
+#hero {
+    background: url(../images/hero.jpg) no-repeat center / cover;
+    background-color: var(--light-blue);
+    background-blend-mode: screen;
+    height: 100vh;
+    animation: bg-color 24s infinite;
+    display: flex;
+    align-items: center;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+@keyframes bg-color {
+    0% { background-color: var(--lighty-blue); }
+    12.5% { background-color: var(--blue); }
+    25% { background-color: var(--purple); }
+    37.5% { background-color: var(--pink); }
+    50% { background-color: var(--orange); }
+    62.5% { background-color: var(--yellow); }
+    75% { background-color: var(--light-green); }
+    87.5% { background-color: var(--green); }
+    100% { background-color: var(--light-blue); }
+}
