@@ -32,7 +32,7 @@ h2 {
     font-size: 3rem;
     margin-bottom: 2rem;
 }
-image {
+img {
     max-width: 100%;
 }
 p {
@@ -113,4 +113,31 @@ header a {
     75% { background-color: var(--light-green); }
     87.5% { background-color: var(--green); }
     100% { background-color: var(--light-blue); }
+}
+#hero h1 {
+    font-size: 3.5rem;
+    margin: 1rem;
+}
+.hero-date {
+    font-size: 1.5rem;
+    text-align: center;
+    border-top: 3px solid var(--grey);
+    border-bottom: 3px solid var(--grey);
+    margin-bottom: 1.5rem;
+    padding: .5rem 0;
+}
+/* ABOUT */
+#about {
+    padding: 4rem 1rem;
+}
+#about h2 {
+    background: linear-gradient(var(--yellow), var(--orange));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#about p {
+    margin-bottom: 2rem;
+}
+#about img {
+    
 }
