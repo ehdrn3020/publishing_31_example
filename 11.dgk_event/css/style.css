@@ -42,6 +42,8 @@ header, h1, h2, .hero-date {
     font-family: impact, sans-serif;
 }
 .wrapper {
+    max-width: 800px;
+    margin: 0 auto;
     width: 100%;
     padding: 0 1rem;
 }
@@ -194,4 +196,44 @@ header a {
 }
 .speakers-text {
     margin-left: 1rem;
+}
+/* Ticket */
+#ticket {
+    background-image: linear-gradient(var(--pink),var(--purple));
+    padding: 6rem 1rem 2rem;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+}
+#ticket h2 {
+    color: var(--white);
+}
+.ticket-form {
+    max-width: 480px;
+    margin: 0 auto 5rem;
+}
+.ticket-form label {
+    color: var(--white);
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.ticket-field {
+    background: rgba(255,255,255,.5);
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+.ticket-btn {
+    display: block;
+    color: var(--white);
+    background-color: #333;
+    width: 100%;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+.footer {
+    border-top: 1px solid var(--white);
+    padding-top: 2rem;
+    text-align: center;
+    font-size: .875rem;
+    color: var(--white);
 }
