@@ -141,3 +141,57 @@ header a {
 #about img {
     
 }
+/* News */
+#news {
+    background-image: linear-gradient(var(--light-green),var(--green));
+    padding: 7rem 0;
+    clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+}
+#news h2 {
+    color: var(--white);
+}
+.news-table {
+    color: var(--white);
+    width: 100%;
+}
+.news-table tr {
+    border-bottom: 1px solid var(--white);
+}
+.news-table td {
+    line-height: 1.5;
+}
+.news-date {
+    display: block;
+    font-size: .9rem;
+    padding-top: 1rem;
+}
+.news-content {
+    display: block;
+    padding-bottom: 1rem;
+}
+/* Speakers */
+#speakers {
+    padding: 4rem 1rem;
+}
+#speakers h2 {
+    background: linear-gradient(var(--light-blue), var(--blue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.speakers-list {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    margin-bottom: 2rem;
+}
+#speakers h3 {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+#speakers img {
+    border-radius: 50%;
+    width: 20%;
+}
+.speakers-text {
+    margin-left: 1rem;
+}
