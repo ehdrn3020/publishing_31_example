@@ -8,7 +8,7 @@ HTML+CSS+JS 활용 웹페이지
 - KeyFrame을 이용한 Css Animation
 - 반응형
 <div>
-  <img src="https://user-images.githubusercontent.com/20849970/193516412-0138f303-0657-46ea-9397-85805f69357e.png" width="250"/>
+  <img src="https://user-images.githubusercontent.com/20849970/193516412-0138f303-0657-46ea-9397-85805f69357e.png" width="450"/>
 </div>
 -
 
