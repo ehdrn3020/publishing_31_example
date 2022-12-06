@@ -1,6 +1,17 @@
 ﻿# publishing_31_example
 HTML+CSS+JS 활용 웹페이지 
 
+# 12.wedding promotion
+
+행사 공지
+- Css 커스텀 속성
+- KeyFrame을 이용한 Css Animation
+- 반응형
+<div>
+  <img src="https://user-images.githubusercontent.com/20849970/206042521-01e2e82c-7973-4954-8813-37cab96ba3d5.png" width="450"/>
+</div>
+-
+
 # 11.dgk event
 
 행사 공지
