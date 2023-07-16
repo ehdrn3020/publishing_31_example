@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1.5;
+}
+.hd-bar {
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.hd-black {
+    color: #fff;
+    background-color: black;
+}
+.hd-black a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 24px;
+}
+.hd-black a:hover {
+    color: #000;
+    background-color: #ccc;
+}
+.bar-item-left {
+    float: left;
+}
+.bar-item-right {
+    float: right;
+}
+
+
+@media (max-width: 600px){
+    .hd-hide-small {
+        display: none!important;
+    }
+}
