@@ -29,6 +29,62 @@ body {
     float: right;
 }
 
+.main-slide img {
+    width: 100%;
+}
+
+
+
+/* content 2 */
+.content {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.content-h1 {
+    letter-spacing: 0.3rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 1rem;
+}
+.content-opacity {
+    opacity: 0.6;
+    font-style: italic;
+    margin: 0.5rem;
+}
+.content-text {
+    text-align: justify!important;
+    margin: 1rem 0;
+}
+.content-img-row {
+    padding-top: 2rem;
+}
+.row-img p {
+    margin: 1rem 0;
+}
+.row-img img {
+    border-radius: 0.7rem;
+    width: 60%;
+}
+.content-ul {
+    color: #000 !important;
+    background-color: #fff;
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+    margin: 2rem 0.5rem;
+}
+.content-ul li {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #ccc;
+}
+.content-ul li span {
+    color: #fff;
+    background-color: red;
+    margin-left: 1rem;
+    padding: 0.2rem 0.8rem;
+    border-radius: 0.2rem;
+}
+
 
 @media (max-width: 600px){
     .hd-hide-small {
