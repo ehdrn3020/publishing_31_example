@@ -85,6 +85,32 @@ body {
     border-radius: 0.2rem;
 }
 
+.content-2-main {
+    padding: 0.8rem;
+}
+.content-2-main img {
+    width: 100%;
+}
+.content-2-box {
+    background-color: #fff;
+    color: #000;
+    margin-bottom: 1rem;
+}
+.content-2-text {
+    padding: 0.8rem;
+    text-align: justify;
+}
+.content-box-btn {
+    padding: 0.5rem 0.8rem;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.content-box-btn:hover {
+    background-color:#ccc;
+    color: #000;
+}
+
 
 @media (max-width: 600px){
     .hd-hide-small {
